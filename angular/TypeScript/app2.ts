@@ -4,7 +4,7 @@ class Carro {
     private numeroDePortas: number = 0
     private velocidade: number = 0
 
-    constructor(modelo : string, numeroDePortas :number){
+    constructor(modelo: string, numeroDePortas: number) {
         this.modelo = modelo
         this.numeroDePortas = numeroDePortas
     }
@@ -24,8 +24,48 @@ class Carro {
 
 }
 
-let car = new Carro('Ford' , 2);
-car.acelerar()
 
-console.log(car.velocidadeAtual())
-console.log(car)
+class Concessionaria {
+    private endereco: string = ''
+    private listaDeCarros: any
+
+    constructor(endereco: string) {
+        this.endereco = endereco
+    }
+    public fornecerEndereco(): string {
+        return this.endereco;
+    }
+
+    public mostrarListaDeCarros(): any {
+        return this.listaDeCarros;
+    }
+}
+
+class Pessoa {
+
+    private nome: string = ''
+    private carroPreferido: string = ''
+    private carro: any = ''
+
+    constructor(nome: string, carroPreferido: string) {
+        this.nome = nome
+        this.carroPreferido = carroPreferido
+    }
+    public dizerNome(): string {
+        return this.nome
+    }
+
+
+    public dizerCarroPreferido() :string {
+        return this.carroPreferido
+    }
+
+    public comprarCarro(carro: any) :void {
+
+    }
+
+    public dizerQueTemCarro() :any {
+        return this.carroPreferido
+    }
+
+}
