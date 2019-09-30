@@ -1,3 +1,12 @@
 Criar o arquivo tsconfig.json = tsc --init
 Comando para compilar tsc helloworld.ts
 Compilador assistindo alteracoes dentro do diretorio  tsc -w
+criacao de um novo projeto angula ng new 
+exercucao de app angula ng server 
+criacao de novos compomentes ng generate component exemplo  ou
+ng g c tentativas                                              
+
+rpm install bootstrap@4.0.0-alpha.6
+
+
+
