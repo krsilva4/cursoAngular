@@ -5,7 +5,6 @@ criacao de um novo projeto angula ng new
 exercucao de app angula ng server 
 criacao de novos compomentes ng generate component exemplo  ou
 ng g c tentativas                                              
-
 rpm install bootstrap@4.0.0-alpha.6
 
 
