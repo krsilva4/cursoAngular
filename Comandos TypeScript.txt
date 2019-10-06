@@ -8,10 +8,7 @@ ng g c tentativas
 rpm install bootstrap@4.0.0-alpha.6
 comando para build de desenvolvimento  ng build
 comando para build de producao  ng build --prod
-comando para build de producao  ng build --env=prod
-comando para instalacao de um servidor local npm install http-server -g
-ng build --env=production
-
+comando para baixar dependencias npm install 
 
 
 
