@@ -9,7 +9,7 @@ rpm install bootstrap@4.0.0-alpha.6
 comando para build de desenvolvimento  ng build
 comando para build de producao  ng build --prod
 comando para baixar dependencias npm install 
-
+comando para api fake  json-server --watch banco-de-dados.json
 
 
 
