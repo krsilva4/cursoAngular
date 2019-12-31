@@ -12,8 +12,8 @@ import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { OfertaComponent } from './oferta/oferta.component';
+import { OndeFicaComponent } from './oferta/onde-fica/ondeFica.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
-import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +24,8 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
     DiversaoComponent,
     RestaurantesComponent,
     OfertaComponent,
+    OndeFicaComponent,
     ComoUsarComponent,
-    OndeFicaComponent
   ],
   imports: [
     BrowserModule,

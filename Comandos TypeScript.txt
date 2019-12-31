@@ -10,6 +10,7 @@ comando para build de desenvolvimento  ng build
 comando para build de producao  ng build --prod
 comando para baixar dependencias npm install 
 comando para api fake  json-server --watch banco-de-dados.json
+comando para criar compomentes dentro de outros compomentes ng g c oferta/ondeFica --spec=false
 
 
 
