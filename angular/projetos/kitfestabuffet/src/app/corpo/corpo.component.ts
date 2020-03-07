@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CorpoComponent implements OnInit {
 
+
+  private logomarca: string = "assets/logomarca.png"
   constructor() { }
 
   ngOnInit() {
